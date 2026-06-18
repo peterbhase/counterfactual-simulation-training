@@ -1,0 +1,81 @@
+dataset,id,split,original_question,original_answer,llama3.1-8b-instruct_CoT,original_model_cot,llama3.1-8b-instruct_answer,original_model_answer,counterfactual_question,counterfactual_answer,counterfactual_type,counterfactual_reasoning,counterfactual_question_only,formatted_question,choices,formatted_answer,formatted_reasoning,answer_index
+counterfactual,649,train,"After a forest fire, which type of organisms will begin secondary succession?
+(A) wildflowers
+(B) evergreens",A,"Secondary succession occurs after a disturbance or destruction of a mature ecosystem, such as a forest fire. The process involves the recolonization of the area by pioneer species, which are typically small, fast-growing organisms that can tolerate harsh conditions. These pioneer species create a favorable environment for other organisms to grow. In a forest ecosystem, wildflowers and other herbaceous plants are often among the first species to colonize an area after a fire. They are followed by shrubs and trees, which eventually lead to the re-establishment of a mature forest ecosystem.","Secondary succession occurs after a disturbance or destruction of a mature ecosystem, such as a forest fire. The process involves the recolonization of the area by pioneer species, which are typically small, fast-growing organisms that can tolerate harsh conditions. These pioneer species create a favorable environment for other organisms to grow. In a forest ecosystem, wildflowers and other herbaceous plants are often among the first species to colonize an area after a fire. They are followed by shrubs and trees, which eventually lead to the re-establishment of a mature forest ecosystem.",A,A,"After a forest fire, which type of organisms are the last to appear?
+(A) small shrubs
+(B) mature oaks",B,polarity_inversion,"The last organisms to appear after a forest fire are typically mature oaks. This is because they take a long time to grow and establish themselves compared to smaller plants like shrubs, which can grow back more quickly. Therefore, the correct answer is (B) mature oaks.","After a forest fire, which type of organisms are the last to appear?","After a forest fire, which type of organisms are the last to appear?
+(A) small shrubs
+(B) mature oaks",,B,,
+counterfactual,2423,validation,"Students are learning about the natural resources in Maryland. One group of students researches information about renewable natural resources in the state. The other group researches information about nonrenewable natural resources in the state. The resources the students investigate include plants, animals, soil, minerals, water, coal, and oil. Which of the following human activities negatively affects a natural resource?
+(A) planting native plants along a lakeshore
+(B) directing runoff from cropland into a lake",B,"In this scenario, we need to determine which activity negatively affects a natural resource. We can evaluate each option by considering the impact of human actions on the environment.
+
+Option (A), planting native plants along a lakeshore, is actually a positive action. Native plants can help stabilize soil, prevent erosion, and provide a habitat for wildlife. This action can have a positive impact on the environment.
+
+Option (B), directing runoff from cropland into a lake, can have a negative impact. Runoff from cropland can contain fertilizers, pesticides, and other pollutants that can harm aquatic life and contaminate the water. This action can negatively affect the water resource.
+
+Considering the potential impacts, directing runoff from cropland into a lake appears to be the human activity that negatively affects a natural resource.","In this scenario, we need to determine which activity negatively affects a natural resource. We can evaluate each option by considering the impact of human actions on the environment.
+
+Option (A), planting native plants along a lakeshore, is actually a positive action. Native plants can help stabilize soil, prevent erosion, and provide a habitat for wildlife. This action can have a positive impact on the environment.
+
+Option (B), directing runoff from cropland into a lake, can have a negative impact. Runoff from cropland can contain fertilizers, pesticides, and other pollutants that can harm aquatic life and contaminate the water. This action can negatively affect the water resource.
+
+Considering the potential impacts, directing runoff from cropland into a lake appears to be the human activity that negatively affects a natural resource.",B,B,"Students are learning about the natural resources in Maryland. One group of students researches information about renewable natural resources in the state. The other group researches information about nonrenewable natural resources in the state. The resources the students investigate include plants, animals, soil, minerals, water, coal, and oil. Which of the following human activities negatively affects a natural resource?
+(A) overfishing in a lake
+(B) using water to produce electricity",A,new_answer_choices,"Overfishing can deplete fish populations, disrupt ecosystems, and harm the overall health of the aquatic environment. In contrast, using water to produce electricity, such as through hydroelectric power, is generally considered a renewable and sustainable use of water resources when managed properly. Therefore, the correct answer is (A) overfishing in a lake.","Students are learning about the natural resources in Maryland. One group of students researches information about renewable natural resources in the state. The other group researches information about nonrenewable natural resources in the state. The resources the students investigate include plants, animals, soil, minerals, water, coal, and oil. Which of the following human activities negatively affects a natural resource?","Students are learning about the natural resources in Maryland. One group of students researches information about renewable natural resources in the state. The other group researches information about nonrenewable natural resources in the state. The resources the students investigate include plants, animals, soil, minerals, water, coal, and oil. Which of the following human activities negatively affects a natural resource?
+(A) overfishing in a lake
+(B) using water to produce electricity",,A,,
+counterfactual,2047,test,"Which is an example of condensation?
+(A) moisture on mirror after hot shower
+(B) water boiling in a pot",A,"Condensation occurs when water vapor in the air changes back into liquid water. This process typically happens when warm air meets a cool surface, causing the water vapor to condense into droplets. Considering the given options, both (A) moisture on mirror after hot shower and (B) water boiling in a pot involve water, but only (A) involves water vapor condensing into liquid water.
+
+(A) moisture on mirror after hot shower is a clear example of condensation because the warm air from the shower causes the water vapor in the air to condense onto the cool mirror surface.
+
+(B) water boiling in a pot is an example of evaporation, not condensation, as it involves water changing from liquid to gas.
+
+Therefore, (A) is the correct answer.
+
+<answer>A</answer>","Condensation occurs when water vapor in the air changes back into liquid water. This process typically happens when warm air meets a cool surface, causing the water vapor to condense into droplets. Considering the given options, both (A) moisture on mirror after hot shower and (B) water boiling in a pot involve water, but only (A) involves water vapor condensing into liquid water.
+
+(A) moisture on mirror after hot shower is a clear example of condensation because the warm air from the shower causes the water vapor in the air to condense onto the cool mirror surface.
+
+(B) water boiling in a pot is an example of evaporation, not condensation, as it involves water changing from liquid to gas.
+
+Therefore, (A) is the correct answer.
+
+<answer>A</answer>",A,A,"In a high-pressure gas tank, water vapor is compressed until it forms a liquid. What is this process an example of?
+(A) sublimation
+(B) condensation",B,domain_expansion,"The process of water vapor being compressed until it forms a liquid is an example of condensation. Condensation occurs when a gas cools down or is compressed, causing the gas molecules to come closer together and transition into a liquid state. Sublimation, on the other hand, is the process where a solid changes directly into a gas without passing through the liquid phase. Therefore, the correct answer is (B) condensation.","In a high-pressure gas tank, water vapor is compressed until it forms a liquid. What is this process an example of","In a high-pressure gas tank, water vapor is compressed until it forms a liquid. What is this process an example of?
+(A) sublimation
+(B) condensation",,B,,
+counterfactual,204,train,"What is the composition of Saturn's rings?
+(A) ammonia and methane
+(B) chunks of ice and rock",B,"Saturn's rings are primarily composed of water ice mixed with darker organic material. They can also contain smaller amounts of rocky debris and other frozen substances like ammonia and methane ice. However, the primary composition is not solely ammonia and methane. On the other hand, the composition does include chunks of ice, so option (B) seems more accurate. The presence of rock is also a possibility, although it's not the main component. Considering these points, option (B) seems like the best choice.","Saturn's rings are primarily composed of water ice mixed with darker organic material. They can also contain smaller amounts of rocky debris and other frozen substances like ammonia and methane ice. However, the primary composition is not solely ammonia and methane. On the other hand, the composition does include chunks of ice, so option (B) seems more accurate. The presence of rock is also a possibility, although it's not the main component. Considering these points, option (B) seems like the best choice.",B,B,"Saturn's rings are relatively young compared to the age of the Solar System. What are they made of?
+(A) hydrogen and helium
+(B) chunks of ice and rock",B,distractor_irrelevant,"Saturn's rings are primarily composed of countless small particles that are mostly made of water ice, with some rock and dust mixed in. The rings are not made of hydrogen and helium, which are the primary components of Saturn's atmosphere. Therefore, the correct answer is (B) chunks of ice and rock.",Saturn's rings are relatively young compared to the age of the Solar System. What are they made of,"Saturn's rings are relatively young compared to the age of the Solar System. What are they made of?
+(A) hydrogen and helium
+(B) chunks of ice and rock",,B,,
+counterfactual,1340,test,"People often use a mixture of salt and water to clean contact lenses. Which statement best describes this mixture?
+(A) Salt is the solute and water is the solvent.
+(B) Salt is the solvent and water is the solute.",A,"In a mixture of salt and water, salt (sodium chloride) is a solid that dissolves in water, which is a liquid. The substance that dissolves the other substance is called the solvent, and the substance that gets dissolved is called the solute. In this case, water dissolves salt, so water is the solvent, and salt is the solute. 
+
+(A) Salt is the solute and water is the solvent, so this statement is correct. 
+(B) Salt is the solvent and water is the solute, which is incorrect. 
+
+The correct answer is (A) Salt is the solute and water is the solvent.","In a mixture of salt and water, salt (sodium chloride) is a solid that dissolves in water, which is a liquid. The substance that dissolves the other substance is called the solvent, and the substance that gets dissolved is called the solute. In this case, water dissolves salt, so water is the solvent, and salt is the solute. 
+
+(A) Salt is the solute and water is the solvent, so this statement is correct. 
+(B) Salt is the solvent and water is the solute, which is incorrect. 
+
+The correct answer is (A) Salt is the solute and water is the solvent.",A,A,"Venus’ atmosphere is mostly carbon dioxide with small traces of nitrogen gas. Which statement best describes this mixture?
+(A) Nitrogen is the solvent and carbon dioxide is the solute.
+(B) Carbon dioxide is the solvent and nitrogen is the solute.",B,entity_substitution,"In a mixture, the solvent is the substance that is present in the greater amount and dissolves the other substance, known as the solute. Since Venus' atmosphere is mostly carbon dioxide with only small traces of nitrogen gas, carbon dioxide is the solvent and nitrogen is the solute. Therefore, the correct answer is (B) Carbon dioxide is the solvent and nitrogen is the solute.",Venus’ atmosphere is mostly carbon dioxide with small traces of nitrogen gas. Which statement best describes this mixture?,"Venus’ atmosphere is mostly carbon dioxide with small traces of nitrogen gas. Which statement best describes this mixture?
+(A) Nitrogen is the solvent and carbon dioxide is the solute.
+(B) Carbon dioxide is the solvent and nitrogen is the solute.",,B,,
+counterfactual,1832,test,"Students test different model airplane wing designs to determine which design allows for the greatest flight distance. The flight tests take place in a gymnasium. Which of the following is the most appropriate SI unit to use for measuring the flight distance?
+(A) meters
+(B) kilometers",A,"To determine the most appropriate SI unit for measuring the flight distance, we need to consider the typical scale of the measurements involved. The flight tests take place in a gymnasium, which is a relatively small enclosed space. Since the distances involved are likely to be short, we need a unit that can accurately measure short distances.","To determine the most appropriate SI unit for measuring the flight distance, we need to consider the typical scale of the measurements involved. The flight tests take place in a gymnasium, which is a relatively small enclosed space. Since the distances involved are likely to be short, we need a unit that can accurately measure short distances.",A,A,"Students test different electric airplane wing designs to determine which design allows for the greatest flight distance. The flight tests take place in a vast desert, and the students have buggies to help them track down the planes. Which of the following is the most appropriate SI unit to use for measuring the flight distance?
+(A) kilometers
+(B) decameters",A,evidence_transformation,"The International System of Units (SI) uses meters as the base unit for length, and kilometers are a larger unit derived from meters (1 kilometer = 1000 meters). Decameters are less commonly used and represent a smaller unit (1 decameter = 10 meters). Given that flight distances for airplanes are typically measured in larger units, kilometers are more appropriate than decameters. Therefore, the correct answer is (A) kilometers.","Students test different electric airplane wing designs to determine which design allows for the greatest flight distance. The flight tests take place in a vast desert, and the students have buggies to help them track down the planes. Which of the following is the most appropriate SI unit to use for measuring the flight distance?","Students test different electric airplane wing designs to determine which design allows for the greatest flight distance. The flight tests take place in a vast desert, and the students have buggies to help them track down the planes. Which of the following is the most appropriate SI unit to use for measuring the flight distance?
+(A) kilometers
+(B) decameters",,A,,
