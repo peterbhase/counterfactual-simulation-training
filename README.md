@@ -1,6 +1,6 @@
 # Counterfactual Simulation Training
 
-Code repo for this paper: 
+Code repo for this paper: [Counterfactual Simulation Training for Chain-of-Thought Faithfulness](https://arxiv.org/abs/2602.20710)
 
 Below, we describe how to run experiments for Counterfactual Simulation Training (CST).
 
